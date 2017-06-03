@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.16"
+       version="8.1.18"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -23,6 +23,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+18:
+- Rebuild
+
+17:
+- Fix priority setting
+
 16:
 - Fix priority setting
 
@@ -83,7 +89,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.1.18"
+       version="8.1.20"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -104,6 +110,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+20:
+- Rebuild
+
+19:
+- Fix priority setting
+
 18:
 - Fix priority setting
 
@@ -169,7 +181,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.21"
+       version="8.1.23"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -190,6 +202,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+23:
+- Rebuild
+
+22:
+- Fix priority setting
+
 21:
 - Fix priority setting
 
@@ -262,7 +280,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="8.1.2"
+       version="8.1.4"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -275,13 +293,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (3.3.12) is an efficient feature complete C++ bittorrent implementation
+qBittorrent (3.3.13) is an efficient feature complete C++ bittorrent implementation
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+4:
+- Update to 3.3.13
+
+3:
+- Add priority setting
+
 2:
 - Build against qt-everywhere 5.8.0
 
@@ -297,7 +321,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sickrage"
        name="SickRage"
-       version="8.1.16"
+       version="8.1.18"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -317,6 +341,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+18:
+- Rebuild
+
+17:
+- Add priority setting
+
 16:
 - Update to 2017.05.23-1
 
@@ -375,7 +405,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="8.1.9"
+       version="8.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -395,6 +425,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10:
+- Rebuild
+
 9:
 - Update to 18.1
 
@@ -432,7 +465,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="8.1.6"
+       version="8.1.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -450,13 +483,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (6) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+Thoradia Add-ons (8) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8:
+- Rework default.py
+
+7:
+- Rework default.py
+
 6:
 - Mention qBittorrent
 
@@ -484,7 +523,7 @@ Keep it legal and carry on
 </addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
-       version="8.1.2"
+       version="8.1.3"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -498,13 +537,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
     <description>
-Thoradia Mono Tools (2) includes thoradia_libmediainfo.
+Thoradia Mono Tools (3) includes thoradia_libmediainfo.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+3:
+- Update thoradia_libmediainfo to 0.7.96
+
 2:
 - Update thoradia_libmediainfo to 0.7.95
 
@@ -520,7 +562,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="8.1.11"
+       version="8.1.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -540,6 +582,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Rebuild
+
+12:
+- Fix priority setting
+
 11:
 - Fix priority setting
 
@@ -583,7 +631,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="8.1.12"
+       version="8.1.15"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -596,13 +644,22 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
     <description>
-CouchPotato (711310d) downloads movies automatically, easily and in the best quality as soon as they are available
+CouchPotato (ec42591) downloads movies automatically, easily and in the best quality as soon as they are available
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15:
+- Rebuild
+
+14:
+- Update to ec42591
+
+13:
+- Add priority setting
+
 12:
 - Update python dependencies
 
@@ -648,7 +705,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="8.1.10"
+       version="8.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -668,6 +725,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11:
+- Rebuild
+
 10:
 - Update libevent to 2.1.8-stable
 
@@ -708,7 +768,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.12"
+       version="8.1.14"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -729,6 +789,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+14:
+- Rebuild
+
+13:
+- Fix priority setting
+
 12:
 - Fix priority setting
 
@@ -806,7 +872,7 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.15"
+       version="8.1.16"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -827,6 +893,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16:
+- Rebuild
+
 15:
 - Update to 2.0.1
 - Requires service.locale instead of virtual.thoradia-locale
