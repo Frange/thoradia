@@ -418,7 +418,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="8.1.10"
+       version="8.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -438,6 +438,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11:
+- Add priority setting
+
 10:
 - Rebuild
 
