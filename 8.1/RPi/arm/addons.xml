@@ -540,6 +540,37 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.rtorrent"
+       name="rTorrent"
+       version="8.1.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>rTorrent: quick and efficient BitTorrent client</summary>
+    <description>
+rTorrent (0.9.6) is a quick and efficient BitTorrent client
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
        version="8.1.3"
