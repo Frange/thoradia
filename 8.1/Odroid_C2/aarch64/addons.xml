@@ -542,7 +542,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="8.1.1"
+       version="8.1.2"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -562,7 +562,13 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2:
+- Add changelog.txt
+- Fix xmlrpc-c
+- Force scgi_port
 
+1:
+- Initial add-on
     </news>
     <assets>
       <icon>resources/icon.png</icon>
