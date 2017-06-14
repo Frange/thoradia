@@ -89,7 +89,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rutorrent"
        name="ruTorrent"
-       version="8.1.1"
+       version="8.1.2"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -103,13 +103,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>ruTorrent: web front-end for rTorrent</summary>
     <description>
-ruTorrent (3.7) is ruTorrent is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface
+ruTorrent (3.7) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2:
+- Fix description
+
 1:
 - Initial add-on
     </news>
