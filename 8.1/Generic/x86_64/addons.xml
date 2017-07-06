@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.18"
+       version="8.1.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19:
+- Update libtorrent-rasterbat to 1.1.4
+
 18:
 - Rebuild
 
@@ -335,7 +338,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="8.1.5"
+       version="8.1.6"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -355,6 +358,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+6:
+- Update libtorrent-rasterbar to 1.1.4
+- Update qt-everywhere to 5.9.1
+
 5:
 - Fix qbittorrent.start
 - Build against qt-everywhere 5.9.0
