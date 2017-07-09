@@ -474,7 +474,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="8.1.12"
+       version="8.1.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -487,13 +487,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>NZBGet: efficient Usenet downloader</summary>
     <description>
-NZBGet (19.0) is an efficient Usenet downloader
+NZBGet (19.1) is an efficient Usenet downloader
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Update to 19.1
+
 12:
 - Update to 19.0
 
