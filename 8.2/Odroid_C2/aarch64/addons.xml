@@ -92,7 +92,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rutorrent"
        name="ruTorrent"
-       version="8.2.4"
+       version="8.2.5"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -113,6 +113,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+5:
+- Build against static libcurl 7.54.0
+
 4:
 - Update to 3.8
 
@@ -610,7 +613,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="8.2.4"
+       version="8.2.5"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -630,6 +633,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+5:
+- Build against static libcurl 7.54.0
+
 4:
 - Bind to 127.0.0.1 rather than to localhost
 
@@ -844,7 +850,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="8.2.12"
+       version="8.2.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -864,6 +870,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Build against static libcurl 7.54.0
+
 12:
 - Add priority setting
 
