@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="9.0.18"
+       version="9.0.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19:
+- Update libtorrent-rasterbat to 1.1.4
+
 18:
 - Rebuild
 
@@ -87,9 +90,54 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.rutorrent"
+       name="ruTorrent"
+       version="9.0.5"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="service.rtorrent" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ruTorrent: web front-end for rTorrent</summary>
+    <description>
+ruTorrent (3.8) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+5:
+- Build against static libcurl 7.54.0
+
+4:
+- Update to 3.8
+
+3:
+- Add mediainfo and unrar
+
+2:
+- Fix description
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="9.0.20"
+       version="9.0.21"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -103,13 +151,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.4753) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.4855) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+21:
+- Update to 2.0.0.4855
+
 20:
 - Rebuild
 
@@ -181,7 +232,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="9.0.26"
+       version="9.0.28"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -195,13 +246,20 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.1483) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.7.1523) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+28:
+- Update to 0.7.1523
+
+27:
+- Update to 0.7.1499
+- Enable auto-update
+
 26:
 - Update to 0.7.1483
 
@@ -289,7 +347,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.0.5"
+       version="9.0.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -302,13 +360,23 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (3.3.13) is an efficient feature complete C++ bittorrent implementation
+qBittorrent (3.3.15) is an efficient feature complete C++ bittorrent implementation
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8:
+- Update to 3.3.15
+
+7:
+- Update to 3.3.14
+
+6:
+- Update libtorrent-rasterbar to 1.1.4
+- Update qt-everywhere to 5.9.1
+
 5:
 - Fix qbittorrent.start
 - Build against qt-everywhere 5.9.0
@@ -421,7 +489,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="9.0.11"
+       version="9.0.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -434,13 +502,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>NZBGet: efficient Usenet downloader</summary>
     <description>
-NZBGet (18.1) is an efficient Usenet downloader
+NZBGet (19.1) is an efficient Usenet downloader
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Update to 19.1
+
+12:
+- Update to 19.0
+
 11:
 - Add priority setting
 
@@ -484,7 +558,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="9.0.8"
+       version="9.0.9"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -502,13 +576,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (8) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+Thoradia Add-ons (9) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, SickRage, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+9:
+- Mention rTorrent and ruTorrent
+
 8:
 - Rework default.py
 
@@ -529,6 +606,52 @@ Keep it legal and carry on
 
 2:
 - Fix datadir
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.rtorrent"
+       name="rTorrent"
+       version="9.0.5"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>rTorrent: quick and efficient BitTorrent client</summary>
+    <description>
+rTorrent (0.9.6) is a quick and efficient BitTorrent client
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+5:
+- Build against static libcurl 7.54.0
+
+4:
+- Bind to 127.0.0.1 rather than to localhost
+
+3:
+- Refer to session directory with an absolute path
+
+2:
+- Add changelog.txt
+- Fix xmlrpc-c
+- Force scgi_port
 
 1:
 - Initial add-on
@@ -581,7 +704,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="9.0.13"
+       version="9.0.14"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -594,13 +717,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Headphones: automated music downloader for NZB and Torrent</summary>
     <description>
-Headphones (8e1cd31) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+Headphones (0c98085) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+14:
+- Update to 0c98085
+
 13:
 - Rebuild
 
@@ -650,7 +776,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="9.0.15"
+       version="9.0.17"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -663,13 +789,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
     <description>
-CouchPotato (ec42591) downloads movies automatically, easily and in the best quality as soon as they are available
+CouchPotato (0a97ed5) downloads movies automatically, easily and in the best quality as soon as they are available
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+17:
+- Update to 0a97ed5
+
+16:
+- Update to 05b7cab
+
 15:
 - Rebuild
 
@@ -724,7 +856,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="9.0.12"
+       version="9.0.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -744,6 +876,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Build against static libcurl 7.54.0
+
 12:
 - Add priority setting
 
@@ -790,7 +925,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="9.0.14"
+       version="9.0.15"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -804,13 +939,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.696) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.778) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15:
+- Update to 0.2.0.778
+
 14:
 - Rebuild
 
@@ -862,7 +1000,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="9.0.18"
+       version="9.0.20"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -876,13 +1014,20 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (2.1.0) is a program to download binary files from Usenet servers.
+SABnzbd (2.2.1) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+20:
+- Update to 2.2.1
+
+19:
+- Update to 2.2.0
+- Update Python dependencies
+
 18:
 - Update to 2.1.0
 
