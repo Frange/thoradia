@@ -1023,7 +1023,7 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.20"
+       version="8.1.21"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -1044,6 +1044,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+21:
+- Add six
+
 20:
 - Update to 2.2.1
 
