@@ -350,7 +350,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.0.8"
+       version="9.0.9"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -363,13 +363,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (3.3.15) is an efficient feature complete C++ bittorrent implementation
+qBittorrent (3.3.16) is an efficient feature complete C++ bittorrent implementation
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+9:
+- Update to 3.3.16
+
 8:
 - Update to 3.3.15
 
