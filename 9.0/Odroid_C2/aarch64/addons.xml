@@ -92,7 +92,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rutorrent"
        name="ruTorrent"
-       version="9.0.5"
+       version="9.0.6"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -113,6 +113,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+6:
+- Update php to 7.1.9
+
 5:
 - Build against static libcurl 7.54.0
 
@@ -1012,7 +1015,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="9.0.21"
+       version="9.0.22"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1026,13 +1029,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (2.2.1) is a program to download binary files from Usenet servers.
+SABnzbd (2.3.0) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+22:
+- Update to 2.3.0
+
 21:
 - Add six
 
