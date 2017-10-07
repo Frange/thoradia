@@ -238,7 +238,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="9.0.28"
+       version="9.0.29"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -252,96 +252,100 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.1523) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.8.249) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-28:
+29
+- Update to 0.8.249
+- Use XDG_CONFIG_HOME instead of DataFolder
+
+28
 - Update to 0.7.1523
 
-27:
+27
 - Update to 0.7.1499
 - Enable auto-update
 
-26:
+26
 - Update to 0.7.1483
 
-25:
+25
 - Update to 0.7.1477
 
-24:
+24
 - Update to 0.7.1469
 
-23:
+23
 - Rebuild
 
-22:
+22
 - Fix priority setting
 
-21:
+21
 - Fix priority setting
 
-20:
+20
 - Add priority setting
 
-19:
+19
 - Update to 0.7.1437
 
-18:
+18
 - Update to 0.7.1389
 
-17:
+17
 - Update to 0.7.1256
 
-16:
+16
 - Update to 0.7.1225
 
-15:
+15
 - Update to 0.7.1167
 
-14:
+14
 - Update to 0.7.1150
 
-13:
+13
 - Update to 0.7.1138
 
-12:
+12
 - Update to 0.7.1079
 
-11:
+11
 - Update to 0.7.932
 
-10:
+10
 - Service after/requires multi-user.target network-online.target
 
-9:
+9
 - Update to 0.7.890
 
-8:
+8
 - Update to 0.7.860
 
-7:
+7
 - Update to 0.7.839
 
-6:
+6
 - Update to 0.7.825
 
-5:
+5
 - Update to 0.7.741
 
-4:
+4
 - Update to 0.7.639
 
-3:
+3
 - Remove add-on repository
 
-2:
+2
 - Correct descriptions
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
